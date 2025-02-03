@@ -35,3 +35,8 @@ __pycache__/
 *.pyo
 venv/
 .env
+echo "__pycache__/" > .gitignore
+echo "venv/" >> .gitignore
+echo "*.pyc" >> .gitignore
+echo ".idea/" >> .gitignore
+echo ".vscode/" >> .gitignore
